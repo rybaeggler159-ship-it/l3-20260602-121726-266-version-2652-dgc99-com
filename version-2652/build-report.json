@@ -1,0 +1,20 @@
+{
+  "parsed_movies": 2000,
+  "detail_pages": 2000,
+  "category_pages": 10,
+  "category_distribution": {
+    "热门电影精选": 200,
+    "热播剧集片单": 200,
+    "爱情喜剧片单": 200,
+    "悬疑动作片单": 200,
+    "科幻奇幻片单": 200,
+    "青春音乐片单": 200,
+    "动画冒险片单": 200,
+    "历史战争片单": 200,
+    "家庭治愈片单": 200,
+    "多地区影片片库": 200
+  },
+  "html_pages_total": 2014,
+  "jpg_files_in_zip": 0,
+  "video_url_sources_reused_from_uploaded_js": 20
+}

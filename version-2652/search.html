@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索筛选-热门电影大全-精选影片片单-热门片库持续更新</title>
+  <meta name="description" content="热门电影大全搜索筛选页，可按影片标题、地区、年份和标签查找片库内容。">
+  <meta name="keywords" content="热门电影大全,精选影片片单,热门片库持续更新,热门电影,电影片单,精选影片,电影片库,搜索影片,电影筛选">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="./search.html">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./index.html" class="site-logo" aria-label="热门电影大全 首页">
+        <span class="logo-mark">影</span>
+        <span>热门电影大全</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类总览</a>
+        <a href="./ranking.html">热播榜</a>
+        <a href="./search.html" class="nav-active">搜索筛选</a>
+      </nav>
+      <form class="header-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、地区、标签" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="mobile-menu-button" type="button" data-mobile-menu-button aria-label="展开导航">☰</button>
+    </div>
+    <div class="mobile-nav" data-mobile-menu>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类总览</a>
+      <a href="./ranking.html">热播榜</a>
+      <a href="./search.html">搜索筛选</a>
+      <div class="mobile-category-links">
+            <a href="./category-hot-movie-picks.html">热门电影精选</a>
+            <a href="./category-drama-series.html">热播剧集片单</a>
+            <a href="./category-romance-comedy.html">爱情喜剧片单</a>
+            <a href="./category-suspense-action.html">悬疑动作片单</a>
+            <a href="./category-sci-fi-fantasy.html">科幻奇幻片单</a>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="page-title">
+      <h1>搜索与筛选</h1>
+      <p>可按影片标题、地区、年份、类型、题材标签快速查找片库内容。</p>
+    </section>
+    <section class="search-panel">
+      <input class="search-input" type="search" data-search-keyword placeholder="输入影片标题、标签或简介关键词" aria-label="关键词">
+      <select class="search-select" data-search-region aria-label="地区">
+        <option value="">全部地区</option>
+      </select>
+      <select class="search-select" data-search-year aria-label="年份">
+        <option value="">全部年份</option>
+      </select>
+      <select class="search-select" data-search-tag aria-label="标签">
+        <option value="">全部标签</option>
+      </select>
+    </section>
+    <p class="search-status" data-search-status>正在加载片库数据。</p>
+    <section class="grid grid-medium" data-search-results></section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h2>热门电影大全</h2>
+        <p>热门电影大全栏目围绕热度整理影片片单，涵盖多题材、多地区内容，片库信息持续更新。</p>
+      </div>
+      <div>
+        <h3>片单入口</h3>
+        <div class="footer-links">
+          <a href="./category-hot-movie-picks.html">热门电影精选</a>
+          <a href="./category-drama-series.html">热播剧集片单</a>
+          <a href="./category-romance-comedy.html">爱情喜剧片单</a>
+          <a href="./category-suspense-action.html">悬疑动作片单</a>
+          <a href="./category-sci-fi-fantasy.html">科幻奇幻片单</a>
+          <a href="./category-youth-music.html">青春音乐片单</a>
+          <a href="./category-animation-adventure.html">动画冒险片单</a>
+          <a href="./category-history-war.html">历史战争片单</a>
+          <a href="./category-family-healing.html">家庭治愈片单</a>
+          <a href="./category-world-cinema.html">多地区影片片库</a>
+        </div>
+      </div>
+      <div>
+        <h3>快速访问</h3>
+        <div class="footer-links">
+          <a href="./index.html">首页</a>
+          <a href="./ranking.html">热播榜</a>
+          <a href="./search.html">搜索筛选</a>
+          <a href="./sitemap.xml">站点地图</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/site.js"></script>
+  <script src="./assets/movies-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
